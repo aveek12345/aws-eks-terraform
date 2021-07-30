@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "techbloc-terraform-data"
+    bucket = "my-bucket"
     key    = "openshift-311"
     region = "eu-west-1"
   }
