@@ -10,6 +10,8 @@ terraform {
   }
 }
 
+resource "aws_iam_role" "bucket" {
+  name = "bucket"
  assume_role_policy = <<POLICY
 {
   "Version": "2012-10-17",
