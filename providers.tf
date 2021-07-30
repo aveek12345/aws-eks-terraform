@@ -1,12 +1,12 @@
 provider "aws" {
-  region = "eu-west-1"
+  region = "us-east-1"
 }
 
 terraform {
   backend "s3" {
     bucket = "mybucket"
     key    = "path/to/my/key"
-    region = "eu-west-1"
+    region = "us-east-1"
   }
 }
 
